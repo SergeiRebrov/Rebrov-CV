@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+* {
+	margin: 20;
+	padding: 10;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background: linear-gradient(to right, #98bec5, #53c984);
+}
+
+
+.pb{
+	padding-bottom: 20px;
+}
+
+.title{
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	color: #1787e4;
+	position: relative;
+	text-align: left;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+.title:before{
+	content: "";
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #3525af;
+}
+
+.icon{
+	font-size: 20px;
+	color: #f11a6cda;
+}
+
+.text{
+	color: #3f0c6b;
+	font-size: 14px;
+}
+
+.contact .li_wrap .text{
+	width: calc(100% - 50px);
+	word-break: break-word;
+	color: #fff;
+}
+
+.contact .li_wrap {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.contact .li_wrap .icon{
+	width: 30px;
+	height: 30px;
+	background: rgb(155, 224, 233);
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+	border: 2px solid #fff;
+}
+
+.skills ul,
+.hobbies ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.skills .li_wrap,
+.hobbies .li_wrap{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills .li_wrap{
+	background: rgb(155, 224, 233);
+	border: 2px solid #fff;
+}
+
+.skills .li_wrap .text,
+.hobbies .li_wrap .text{
+	margin-top: 5px;
+}
+
+.hobbies .li_wrap{
+	border: 2px solid #fff;
+}
+
+.hobbies .li_wrap.icon,
+.hobbies .li_wrap.text{
+	color: #fff;
+}
+
+.hobbies .li_wrap:hover{
+	background: #fff;
+}
+
+.hobbies .li_wrap:hover.icon,
+.hobbies .li_wrap:hover.text{
+	color: #9153c9;
+}
+
+.header{
+	background: #5a5d64;
+	padding: 5px;
+	color: #fff;
+	height: 100px;
+}
+
+.header .name{
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #25afa8;
+}
+
+.header .role{
+	display: flex;
+	font-weight: 250;
+	font-size: 20px;
+}
+
+.date {
+	width: 125px;
+	color: #045155;
+}
+
+.info {
+	margin-bottom: 10px;
+}
+
+.b-7 {
+	float: right;
+	background-color: #ffffff;
+	font-size: 12px;
+	border-radius: 8px;
+	margin: 5%;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
+
+.b-7:hover {
+	background-color: #4CAF50; /* Green */
+	color: white;
+}
